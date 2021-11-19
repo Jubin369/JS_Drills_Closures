@@ -1,6 +1,5 @@
-function limitFunctionCallCount(cb, n) {
+function limitFunctionCallCount(cb, n,count) {
     let res=function(){
-        let count=0;
         
         while (count<n){
             count+=1;
